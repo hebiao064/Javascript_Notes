@@ -12,11 +12,10 @@ int main() {
     if (a == 0) {
         int b = 1;
     }
-    cout << a << " " << b << endl; //what will print here?  
+    cout << a << " " << b << endl; // What will print here?  
+    // Output: error: use of undeclared identifier 'b'
 }
 ```
-
-Output: error: use of undeclared identifier 'b'
 
 - ***Function level scope***
 Languages: Javascript
