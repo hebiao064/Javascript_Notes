@@ -20,6 +20,7 @@ Output: error: use of undeclared identifier 'b'
 
 - ***Function level scope***
 Languages: Javascript
+
 > Function scope means that any variables declared inside a function will be visible in the entire function in which they are defined, regardless of whether those variables are declared inside a while loop, for loop, if statement, or some other block of code within that function. 
 
 ```javascript
