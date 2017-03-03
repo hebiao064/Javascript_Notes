@@ -5,6 +5,7 @@ Languages: C++, Java, C#
 
 > A programming language has block scope if a variable declared inside some block of code enclosed by curly braces is only 
 > visible within that block of code, and that variable is not visible outside of that particular block of code.
+
 ```C++
 int main() {
     int a = 0;
