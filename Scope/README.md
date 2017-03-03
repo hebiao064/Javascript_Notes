@@ -1,6 +1,6 @@
 ## Scope
 
-***Block level scope***
+1. ***Block level scope***
 Languages: C++, Java, C#
 
 > A programming language has block scope if a variable declared inside some block of code enclosed by curly braces is only 
@@ -18,7 +18,7 @@ int main() {
 
 Output: error: use of undeclared identifier 'b'
 
-***Function level scope***
+2. ***Function level scope***
 Languages: Javascript
 > Function scope means that any variables declared inside a function will be visible in the entire function in which they are defined, regardless of whether those variables are declared inside a while loop, for loop, if statement, or some other block of code within that function. 
 
