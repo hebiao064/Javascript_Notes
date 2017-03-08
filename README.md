@@ -10,6 +10,8 @@ Javascript learning notes and problem solving skills while developing a social H
 ### <a name="1-scope"></a>1. Scope
 
 - ***Block level scope***
+## Scope
+
 Languages: C++, Java, C#
 
 > A programming language has block scope if a variable declared inside some block of code enclosed by curly braces is only 
@@ -37,9 +39,10 @@ var jsScope = function () {
 	if (a === 0) {
 		var b = 1;
 	}
-	console.log(a,b);
+	console.log(a,b,c);
+	var c = 0;
 }
-jsScope(); // It will print "0 1"
+jsScope(); // It will print "0 1 undefined"
 ```
 > Even nested functions (which are basically functions declared within other functions) can access and view variables that are declared in their outer, enclosing, function(s).
 
@@ -56,3 +59,4 @@ jsScope(); // print "1"
 ```
 Actually, I think nested function should be able to access the variable declared in their outer function, to this point, javascript is similar to other languages like C++, JAVA, C#
 
+My thoughts: From the function level based scope, we can acquire its feature that the function defined before can access to the function defined later, if only they exists in a same function level. So we don't need to care too much the occurence sequence, but make sure the callee has been set up before you call it.
