@@ -4,6 +4,12 @@ Javascript learning notes and problem solving skills while developing a social H
 ## Catalog
 
 * [1. Scope](#1-scope)
+* [2. Closure](#2-closure)
+* [3. Bind & Apply](#3-bind-apply)
+* [4. Functions in For Loop](#4-functions-in-for-loop)
+* [5. Inheritance and the prototype chain](#5-inheritance-and-the-prototype-chain)
+* [6. immediately-invoked function expression](#6-immediately-invoked-function-expression)
+
 
 
 
