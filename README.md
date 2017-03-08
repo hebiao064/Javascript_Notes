@@ -10,8 +10,6 @@ Javascript learning notes and problem solving skills while developing a social H
 ### <a name="1-scope"></a>1. Scope
 
 - ***Block level scope***
-## Scope
-
 Languages: C++, Java, C#
 
 > A programming language has block scope if a variable declared inside some block of code enclosed by curly braces is only 
