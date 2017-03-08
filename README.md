@@ -1,5 +1,6 @@
 # Javascript_Notes
-Javascript learning notes and problem solving skills while developing a social HTML5 game
+Javascript learning notes and problem solving skills while developing a social HTML5 game.
+The notes mainly focused on difference with mainstream language like C++ JAVA and a few thoughts based on developing H5 game.
 
 ## Catalog
 
